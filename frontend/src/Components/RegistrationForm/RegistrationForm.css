@@ -1,0 +1,31 @@
+.registrationForm {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #282c34;
+    height: 600px;
+    width: 450px;
+    border-radius: 40px;
+
+}
+
+
+.container {
+    width: 300px; /* Ширина контейнера с элементами формы */
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container p {
+    margin-bottom: 10px; /* Отступ между параграфами с элементами формы */
+}
+
+.errorMessage {
+    color: red; /* Цвет текста для сообщения об ошибке */
+}

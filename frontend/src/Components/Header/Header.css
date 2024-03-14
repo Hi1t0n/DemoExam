@@ -1,0 +1,38 @@
+.header{
+    background-color: #282c34;
+    align-items: center;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+
+}
+
+.logo{
+    height: 50px;
+    width: 100px;
+}
+
+.navigationMenu{
+    display: flex;
+    align-items: center;
+}
+
+.nameLogo{
+    margin-right: 10px;
+    margin-left: 10px;
+    font-family: sans-serif;
+    color: #888888;
+    flex-grow: 1;
+}
+
+.navigationButtonContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+

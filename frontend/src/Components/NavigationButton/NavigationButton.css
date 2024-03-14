@@ -1,0 +1,14 @@
+.navigationButton{
+    margin-left: auto;
+    margin-right: 20px;
+    background: none;
+    border: none;
+    color: #ffffff;
+    font-size: 18px;
+    transition: 1s linear;
+}
+
+.navigationButton:hover{
+    color: #888888;
+    transition: 1s linear;
+}
